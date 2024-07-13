@@ -12,9 +12,8 @@ import BootstrapVue3 from "bootstrap-vue-3";
 
 const app = createApp(App);
 
-
 const gauthClientId =
-  "42526606124-lmn8l9o7jio8j6idf6671as7e38h1h9l.apps.googleusercontent.com";
+  "35689373286-qc9uk9jl8s90tu1r61p761ssbqjl3f5d.apps.googleusercontent.com";
 app.use(vue3GoogleLogin, {
   clientId: gauthClientId,
 });
